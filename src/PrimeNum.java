@@ -1,3 +1,9 @@
+/**
+ * Checks if a number is prime.
+ *
+ * @param n the number to check
+ * @return true if the number is prime, false otherwise
+ */
 public class PrimeNum{
 
     public static boolean isPrime(int n) {

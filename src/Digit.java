@@ -1,3 +1,9 @@
+/**
+ * Checks if a string consists only of digits.
+ *
+ * @param s the input string to be checked
+ * @return true if the string consists only of digits, false otherwise
+ */
 public class Digit {
 
     public static boolean isAllDigits(String s) {

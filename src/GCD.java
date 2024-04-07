@@ -1,3 +1,10 @@
+/**
+ * Calculates the greatest common divisor (GCD) of two integers using the Euclidean algorithm.
+ *
+ * @param a the first integer
+ * @param b the second integer
+ * @return the GCD of the two integers
+ */
 public class GCD {
 
     public static int gcd(int a, int b) {
