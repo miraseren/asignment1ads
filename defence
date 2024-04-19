@@ -1,0 +1,28 @@
+// count the accurance of the specific number
+// given the sequence of numbers
+//
+public class Specific{
+    public static int FindSpecific(int[] sequence, int n ,int b) {
+        if (n == 0)
+            return 0;
+
+        else if (sequence[n] == b) {
+            return b++;
+        }
+        return n;
+    }
+}
+
+
+
+public class Main {
+    public static void main(String[] args) {
+        int[] sequence = {1 ,2, 3, 4, 5, 6 , 7 , 5 , 5 , 5};
+        int b = 5;
+
+        int n = sequence.length;
+        System.out.println(FindSpecific);
+    }
+}
+
+
